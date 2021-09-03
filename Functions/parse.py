@@ -6,4 +6,4 @@ def clean_data(tw):
             cleaned_tw += char
     return cleaned_tw
 
-print(clean_data("living the dream.#tommulcair instagram.com/p/8up9qepkxw/"))
+# print(clean_data("living the dream.#tommulcair instagram.com/p/8up9qepkxw/"))

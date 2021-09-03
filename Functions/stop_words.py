@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 def remove_stop_words(tw):
-    with open("stop_words.txt", 'r') as stop_words_txt:
+    with open("./Assets/stop_words.txt", 'r') as stop_words_txt:
         stop_words = stop_words_txt.readlines()
         stop_words_list = [word.strip() for word in stop_words]
     tw_words = tw.split()
